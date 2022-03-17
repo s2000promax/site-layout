@@ -1,0 +1,28 @@
+h1, span {
+    color: #F64225;
+}
+
+h2 {
+    background-color: #378108;
+    color: white;
+    padding: 5px;
+}
+
+.able {
+padding: 50px;
+}
+
+.p-form {
+    padding-left: 140px;
+}
+
+.block {
+    background-color: #2D66FC;
+    width: 100px;
+    margin-bottom: 100px;
+}
+
+li {
+    font-size: 2em;
+    border: 1px solid #000000;
+}
