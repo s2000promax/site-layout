@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(228,59,124,1);
+	background: -moz-linear-gradient(left, rgba(228,59,124,1) 0%, rgba(239,1,124,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(228,59,124,1)), color-stop(100%, rgba(239,1,124,1)));
+	background: -webkit-linear-gradient(left, rgba(228,59,124,1) 0%, rgba(239,1,124,1) 100%);
+	background: -o-linear-gradient(left, rgba(228,59,124,1) 0%, rgba(239,1,124,1) 100%);
+	background: -ms-linear-gradient(left, rgba(228,59,124,1) 0%, rgba(239,1,124,1) 100%);
+	background: linear-gradient(to right, rgba(228,59,124,1) 0%, rgba(239,1,124,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e43b7c', endColorstr='#ef017c', GradientType=1 );
+	padding-top: 100px;
+	padding-bottom: 225px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.offer {
+	width: 490px;
+}
+
+.title {
+	font-size: 28px;
+}
+
+.title span {
+	font-size: 36px;
+	display: block;
+	padding-top: 10px;
+}
+
+.intro {
+	margin-bottom: 37px;
+	margin-top: 30px;
+	width: 380px;
+}
+
+.btn {
+	font-family: 'Ubuntu', sans-serif;;
+	background: #ffffff;
+	color: #000000;
+	font-weight: bold;
+	display: block;
+	width: 205px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #918a8a;
+}
+
+.desktop {
+	margin-top: 72px;
+}
+
+.learn {
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+
+.skill {
+	width: 350px;
+	text-align: center;
+}
+
+.skill img{
+}
+
+.skill-title {
+	font-size: 18px;
+	padding: 10px 10px;
+}
+
+.skill-text {
+	margin-top: 7px;
+
+}
+
+.skill-free {
+	width: 380px;
+}
+
+.skill-change {
+
+}
+
+.mail {
+	background: #efecf4;
+	padding-top: 173px;
+	padding-bottom: 190px;
+}
+
+.form {
+	margin-top: 40px;
+
+}
+
+.input {
+	width: 340px;
+	border: 1px solid #bfb8d1;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	height: 54px;
+
+	padding: 15px;
+	margin: 0 auto 15px;
+	display: block;
+}
+
+.btn-form {
+	border: 0;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	width: 340px;
+}
+
+.footer {
+	padding: 33px 0;
+	background: #164d7a;
+
+}
+
+.credits {
+	color: #d4cee3;
+	font-size: 14px;
+	margin: 0;
+}
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: auto;
+	}
+	.desktop {
+		display: block;
+		width: 549px;
+		margin: 72px auto 0;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-bottom: 30px;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.desktop {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn {
+		margin-left: 0;
+		margin-top: 15px;
+		width: 100%;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+}
