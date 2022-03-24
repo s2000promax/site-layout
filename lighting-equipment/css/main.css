@@ -115,3 +115,67 @@ body {
     font-weight: 700;
     letter-spacing: 3px;
 }
+
+/*Section Projects*/
+
+.projects {
+    position: absolute;
+    width: 1110px;
+    height: 520px;
+    left: 405px;
+    top: 950px;
+    background-color: #ffe3e3;
+}
+
+.projects-button {
+    position: absolute;
+    top: 0;
+    height: 55px;
+    width: 55px;
+    border: 2px solid #005BC1;
+    color: #005BC1;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.button_right {
+    right: 0;
+}
+
+.button_left {
+    right: 53px;
+}
+
+.projects-button:hover {
+    cursor: pointer;
+}
+
+.container-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 540px;
+    height: 400px;
+    background-color: #378108;
+}
+
+.container-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 540px;
+    height: 400px;
+    background-color: #378108;
+}
+
+.sub-container {
+    position: absolute;
+    width: 250px;
+    height: 110px;
+    right: 20px;
+    bottom: 20px;
+
+    background-color: #ffffff;
+
+}
