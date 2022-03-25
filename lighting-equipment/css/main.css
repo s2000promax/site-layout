@@ -200,13 +200,13 @@ h2 {
     letter-spacing: 0.1em;
 }
 
-.sub-container h4 {
+.projects-sub-container h4 {
     font-size: 18px;
     padding: 10px;
     font-weight: 400;
 }
 
-.sub-container p {
+.projects-sub-container p {
     font-size: 14px;
     padding: 10px;
     font-weight: 300;
@@ -223,7 +223,7 @@ h2 {
     /*background-color: #ffe3e3;*/
 }
 
-.container-first {
+.catalog-container-first {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -235,7 +235,7 @@ h2 {
     box-sizing: border-box;
 }
 
-.container-middle {
+.catalog-container-middle {
     position: absolute;
     bottom: 0;
     left: 380px;
@@ -247,7 +247,7 @@ h2 {
     box-sizing: border-box;
 }
 
-.container-right {
+.catalog-container-right {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -259,7 +259,7 @@ h2 {
     box-sizing: border-box;
 }
 
-.sub-container_type2 {
+.catalog-sub-container {
     position: absolute;
     bottom: 20px;
     right: 0;
@@ -270,7 +270,7 @@ h2 {
     align-items: center;
 }
 
-.sub-container_type2 p {
+.catalog-sub-container p {
     color: #FFFFFF;
     text-transform: uppercase;
     padding-left: 10px;
