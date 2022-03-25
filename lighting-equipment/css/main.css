@@ -124,7 +124,21 @@ body {
     height: 520px;
     left: 405px;
     top: 950px;
-    background-color: #ffe3e3;
+    /*background-color: #ffe3e3;*/
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    padding-left: 40px;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
 .projects-button {
@@ -133,6 +147,7 @@ body {
     height: 55px;
     width: 55px;
     border: 2px solid #005BC1;
+    background-color: #FFFFFF;
     color: #005BC1;
     font-family: "Open Sans";
     font-size: 24px;
@@ -157,7 +172,8 @@ body {
     left: 0;
     width: 540px;
     height: 400px;
-    background-color: #378108;
+    /*background-color: #378108;*/
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/Exhib1.png'), #C4C4C4;
 }
 
 .container-right {
@@ -166,7 +182,9 @@ body {
     right: 0;
     width: 540px;
     height: 400px;
-    background-color: #378108;
+    /*background-color: #378108;*/
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/Exhib2.png'), #C4C4C4;
+
 }
 
 .sub-container {
@@ -177,5 +195,19 @@ body {
     bottom: 20px;
 
     background-color: #ffffff;
+    font-family: "Open Sans";
 
+    letter-spacing: 0.1em;
+}
+
+.sub-container h4 {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.sub-container p {
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 300;
 }
