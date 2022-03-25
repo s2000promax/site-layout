@@ -13,6 +13,29 @@ body {
     font-family: Open Sans, Oswald, sans-serif;;
 }
 
+h2 {
+    padding-left: 40px;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 .container {
     position: absolute;
     width: 1920px;
@@ -132,14 +155,6 @@ body {
     align-items: center;
 }
 
-h2 {
-    padding-left: 40px;
-    font-family: "Open Sans";
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-}
 
 .projects-button {
     position: absolute;
@@ -223,6 +238,20 @@ h2 {
     /*background-color: #ffe3e3;*/
 }
 
+.catalog-manufactured {
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-manufactured h3 {
+padding: 70px 15px
+}
+
+.catalog-manufactured a {
+    color: #000000;
+    text-decoration: none;
+}
+
 .catalog-container-first {
     position: absolute;
     bottom: 0;
@@ -231,7 +260,7 @@ h2 {
     height: 300px;
     background: url('../img/Catalog/Equipment/Equip1.png');
     background-size: contain;
-    border: 2px solid #005BC1;
+    border: 3px solid #005BC1;
     box-sizing: border-box;
 }
 
@@ -243,7 +272,7 @@ h2 {
     height: 300px;
     background: url('../img/Catalog/Controllers/Controllers.png');
     background-size: contain;
-    border: 2px solid #005BC1;
+    border: 3px solid #005BC1;
     box-sizing: border-box;
 }
 
@@ -255,7 +284,7 @@ h2 {
     height: 300px;
     background: url('../img/Catalog/Accessoires/Accessoires.png');
     background-size: contain;
-    border: 2px solid #005BC1;
+    border: 3px solid #005BC1;
     box-sizing: border-box;
 }
 
@@ -274,4 +303,74 @@ h2 {
     color: #FFFFFF;
     text-transform: uppercase;
     padding-left: 10px;
+}
+
+/*Section Rent*/
+
+.rent {
+    position: absolute;
+    width: 1110px;
+    height: 520px;
+    left: 405px;
+    top: 2275px;
+    /*background-color: #ffe3e3;*/
+}
+
+.rent-wrapper {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.ren-sub-container {
+    width: 665px;
+    height: 394px;
+    border: 3px solid #005BC1;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rent p {
+    width: 350px;
+    height: 175px;
+    padding-right: 95px;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.rent-card {
+    position: absolute;
+    width: 615px;
+    height: 334px;
+}
+
+.rent-card h4 {
+    padding-top: 15px;
+}
+
+.wrapper-equipment-info {
+    width: 100%;
+    height: 255px;
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.equipment-description {
+    padding-left: 30px;
+}
+
+.equipment-description ul {
+    padding-top: 30px;
+    width: 300px;
+
+    font-weight: 300;
 }
