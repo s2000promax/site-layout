@@ -166,7 +166,7 @@ h2 {
     cursor: pointer;
 }
 
-.container-left {
+.projects-container-left {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -176,7 +176,7 @@ h2 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/Exhib1.png'), #C4C4C4;
 }
 
-.container-right {
+.projects-container-right {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -187,7 +187,7 @@ h2 {
 
 }
 
-.sub-container {
+.projects-sub-container {
     position: absolute;
     width: 250px;
     height: 110px;
@@ -210,4 +210,68 @@ h2 {
     font-size: 14px;
     padding: 10px;
     font-weight: 300;
+}
+
+/*Section Catalog*/
+
+.catalog {
+    position: absolute;
+    width: 1110px;
+    height: 520px;
+    left: 405px;
+    top: 1620px;
+    /*background-color: #ffe3e3;*/
+}
+
+.container-first {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+    height: 300px;
+    background: url('../img/Catalog/Equipment/Equip1.png');
+    background-size: contain;
+    border: 2px solid #005BC1;
+    box-sizing: border-box;
+}
+
+.container-middle {
+    position: absolute;
+    bottom: 0;
+    left: 380px;
+    width: 350px;
+    height: 300px;
+    background: url('../img/Catalog/Controllers/Controllers.png');
+    background-size: contain;
+    border: 2px solid #005BC1;
+    box-sizing: border-box;
+}
+
+.container-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    height: 300px;
+    background: url('../img/Catalog/Accessoires/Accessoires.png');
+    background-size: contain;
+    border: 2px solid #005BC1;
+    box-sizing: border-box;
+}
+
+.sub-container_type2 {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    width: 265px;
+    height: 86px;
+    background-color: #005BC1;
+    display: flex;
+    align-items: center;
+}
+
+.sub-container_type2 p {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-left: 10px;
 }
