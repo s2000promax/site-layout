@@ -375,6 +375,127 @@ h4 {
     font-weight: 300;
 }
 
+/*Section News*/
+.news {
+    position: absolute;
+    width: 1110px;
+    height: 363px;
+    left: 405px;
+    top: 2861px;
+}
+
+.button-allNews {
+    position: absolute;
+    width: 190px;
+    height: 51px;
+    top: 0;
+    right: 0;
+    background-color: #005BC1;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.news-wrapper {
+    width: 100%;
+    height: 242px;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-section-one {
+    width: 540px;
+    height: 242px;
+    display: flex;
+    /*position: relative;*/
+}
+
+.news-section-two {
+    width: 225px;
+    height: 242px;
+}
+
+.news-section-three {
+    width: 225px;
+    height: 242px;
+}
+
+.news-info {
+    position: relative;
+}
+
+.span-news-date {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.news-info h4 {
+    margin-left: 30px;
+}
+
+.news-info p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+
+    margin: 42px 0 21px 30px;
+}
+
+.span-readAll {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+.news-section-two {
+    position: relative;
+}
+
+.news-section-three {
+    position: relative;
+}
+
+.news-info-second h4 {
+    margin-left: 0px;
+    width: 100%;
+}
+
+.news-info-second img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.span-news-date-second {
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.news-info-second p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+
+    margin: 10px 0 10px 0px;
+}
+
+
 
 /*Footer section*/
 footer {
@@ -478,3 +599,7 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+
+
+
